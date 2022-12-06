@@ -1,0 +1,8 @@
+Jei skaičius perduotas per reikšmę, funkciją reikės prilyginti kažkam,
+kad gauta reikšmė būtų įrašyta (pvz.: x = myFunction();).
+Taip pat perduota reikšmė gali būti laisvai manipuliuojama ir pradinis kintamasis nepasikeis.
+
+
+Jei skaičius perduotas per adresą, kintamojo reikšmė vis tiek bus pakeista,
+tačiau skaičiaus gražinti nereikia ir funkcijos nereikia prilyginti kintamajam (void(int *x); funkcijoje manipuliuojamas x pasikeis ir main).
+Funkcijoje manipuliuojant reikšmę perduotą per adresą, ji pasikeis ir main'e.
